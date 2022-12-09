@@ -1,8 +1,7 @@
 ---
 title: Wels Holding GmbH
-description: Overview
+description: Impressum
 ---
-# Wels Holding GmbH
 
 ## Angaben gemäß § 5 TMG
 Wels Holding GmbH \
@@ -23,5 +22,4 @@ Registergericht: Amtsgericht Kleve \
 Registernummer: HRB 14548
 
 ## Umsatzsteuer-ID
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
 DE 310 902 888
