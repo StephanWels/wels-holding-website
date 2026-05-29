@@ -5,7 +5,7 @@
 * Key consulting fields: 
   * Software development
   * Agile projects and processes
-  * SOA & microservice architecture
+  * Pragmatic architecture
 
 ## favorite roles
 * Fullstack developer
@@ -23,10 +23,10 @@
 
 ## core tech stack
 * Frontend
-  * Typescript/vue, javascript/angular 
+  * Typescript/vue/react, javascript/angular 
   * Test automation: cypress, playwright, selenium, geb
 * Backend
-  * Typescript/nestjs, java/spring boot
+  * Java/spring, typescript/nestjs
   * Test automation: spock, jest
 * Infrastructure
   * Aws, azure, heroku, docker
@@ -35,34 +35,131 @@
 ## extensive tech stack
 
 ### backend frameworks
-NestJS, Spring Framework, Spring Boot, Spring Data JPA, Spring Data REST, Spring Security, Spring Web Services, Spring REST, Hibernate, JAX-RS, JSON, JAX-WS, Swagger, Tomcat, Spring Security, Spring Cloud, Spring Sleuth, Netflix Hystrix, Netflix Ribbon, Netflix Zuul, Netflix Sleuth, Apache Solr, Apache Zookeeper, Spring Kafka, Spring Cloud Stream, Apache Camel, Apache CXF, Netflix Ribbon, Netflix Hystrix, Netflix Sleuth, Netflix Zuul, Apache Lucene, Apache Solr, Apache Zookeeper, Togglz, Spock, JUnit, Mockito, DbUnit, REST-asured, Gatling, Selenium, JMeter, PiTest
+NestJS, Spring Framework, Spring Boot, Weld, Java EE, Spring Data JPA, Spring Data REST, Spring Security, Spring Web Services, Spring REST, Hibernate, JAX-RS, JSON, JAX-WS, Swagger, Tomcat, Spring Security, Spring Cloud, Spring Sleuth, Netflix Hystrix, Netflix Ribbon, Netflix Zuul, Netflix Sleuth, Apache Solr, Apache Zookeeper, Spring Kafka, Spring Cloud Stream, Apache Camel, Apache CXF, Netflix Ribbon, Netflix Hystrix, Netflix Sleuth, Netflix Zuul, Apache Lucene, Apache Solr, Apache Zookeeper, Togglz, Spock, JUnit, Mockito, DbUnit, REST-asured, Gatling, Selenium, JMeter, PiTest
 ### frontend frameworks
-Vue, Nuxt, Vuetify, Angular, Angular material, Bootstrap, Ionic, react.js, handlebars.js, postal.js, npm, Grunt, Webpack, Jasmine, Galen, Geb, Thymeleaf, Swing, Eclipse RCP (swt), Apache Struts 2, servlet api, java server pages (jsp), Google tag manager, Usercentrics, Google analytics, Adobe analytics, Contentful
+React, Vue, Nuxt, Vuetify, Angular, Angular material, Bootstrap, Ionic, react.js, handlebars.js, postal.js, npm, Grunt, Webpack, Jasmine, Galen, Geb, Thymeleaf, Swing, Eclipse RCP (swt), Apache Struts 2, servlet api, java server pages (jsp), Google tag manager, Usercentrics, Google analytics, Adobe analytics, Contentful
 ### cloud
 AWS, Azure, Heroku, Google Compute
 ### infrastructure
-Tomcat, Jetty, Apache HTTP, Undertow, NGINGX, Docker, Vagrant, Consul, Swarm, Google Compute, Wildfly, Kubernates, Akamai, Kibana, Elastic Search, Filebeat, Logstash, Prometheus, Grafana
+Tomcat, Jetty, Apache HTTP, Undertow, NGINGX, Docker, Vagrant, Consul, Swarm, Google Compute, Wildfly, Kubernates, Akamai, Kibana, Elastic Search, Filebeat, Logstash, Prometheus, Grafana, Camunda
 ### nosql-databases
-Apache Solr, Neo4J, Redis, MongoDB, Cloud Firestore
+MongoDB, Elastic, Apache Solr, Neo4J, Redis, Cloud Firestore
 ### sql-databases
 PostgreSQL, MySQL, Azure SQL, Impala, H2, HSQLDB
 ### messaging
-Apache Kafka, RabbitMQ, IBM MQSeries, Apache ActiveMQ, Bull
+Apache Kafka, VerneMQ, RabbitMQ, IBM MQSeries, Apache ActiveMQ, Bull (Node/Redis)
 ### build- & ci-tools
-Github Actions, Azure Devops, Gitlab, Maven, Gradle, npm, grunt, webpack, Ansible, Vagrant, Docker, Bamboo, Sonar, JRebel, CVS, Subversion, Git, Stash, Sonar
+Gitlab Pipelines, Github Actions, Azure Devops, Gitlab, Maven, Gradle, npm, grunt, webpack, Ansible, Vagrant, Docker, Bamboo, Sonar, JRebel, CVS, Subversion, Git, Stash, Sonar
 ### methodical knowledge
 Test Driven Development (TDD), Behavior Driven Development (BDD) Objektorientierte Programmierung (OOP), Aspect Oriented Programming (AOP), Paper Prototyping, Software Design Pattern, Consumer Driven Contracts, Datenmodellierung, Datenbankdesign, Continuous Integration, Continuous Delivery
 ### process models
 Scrum, Kanban, Extreme Programming (XP), Pair-Programming
 ### issue tracker & wikis
-JIRA, Confluence, Redmine
+JIRA, Confluence, Gathertown, Miro, Adobe XD, Figma
 ### operating systems
 MacOS, MS Windows, Linux
 ### IDEs
-IDEA IntelliJ, Eclipse
+Jetbrains Toolbox (Intellij), Visual Studio Code
 
 
 ## Projects
+### 04/2025 - 08/2026 // EV-Charging Platform
+#### Industry
+E-Mobility
+#### Challenge
+For a provider of charging infrastructure managing over 2,000 charge points, a platform is to be built for billing of charging electricity, monitoring and configuration of charging stations, as well as coordination of external partners for maintenance. For end customers, a self-service portal is to be provided for ordering charging cards, viewing charging sessions and invoices, as well as support.
+#### Role
+Fullstack Software Developer
+#### Responsibilities
+* Technical conception of the platform
+* Coordination with interface teams
+* Migration of the existing prototype into a robust Spring Boot application with multiple web-based clients for the different user groups of the platform
+* Modeling and (partial) automation of critical business processes in BPMN (Camunda)
+
+#### Tech Stack
+##### Backend
+Spring, Java 21
+##### Frontend
+React, Typescript, Playwright
+##### Infrastructure
+Azure, Kubernetes, Camunda, TIBCO EMS, SAP, Postgres, Terraform, Gitlab, Be-Energised
+##### Collaboration Tools
+Scrum, Jira, Confluence, Miro, Figma, Gathertown
+
+
+### 11/2024 - 03/2025 // Digital Stationary Monitoring System
+#### Industry
+Measurement Technology
+#### Challenge
+Multiple user group-specific products need to be migrated to a unified technical platform. The goal is to share similar functionalities as reusable components while supporting user group-specific extensions.
+#### Role
+Fullstack Software Developer
+#### Responsibilities
+* Supporting the product team with requirements analysis
+* Developing the new technical platform and an end-customer product built on it
+* Building team expertise in technologies like Spring, MongoDB, and Kafka
+* Cross-team architectural collaboration
+
+#### Tech Stack
+##### Backend
+Spring, Java 21
+##### Frontend
+React, Typescript
+##### Infrastructure
+AWS, Docker, Kubernetes, Kafka, MongoDB, Terraform, Gitlab
+##### Collaboration Tools
+Scrum, Jira, Confluence, Miro, Figma, Gathertown
+
+
+### 01/2023 - 12/2024 // IoT Platform
+#### Industry
+Measurement Technology
+#### Challenge
+Migration of the existing IoT platform from AWS to Azure. AWS-specific technologies need to be transitioned to cloud-agnostic solutions.
+#### Role
+Fullstack Software Developer
+#### Responsibilities
+* Migrating legacy services to Docker
+* Replacing Kinesis as the central messaging platform with Kafka
+* Data migration of a legacy application to the next product generation
+* Further development of the IoT platform and improvement of test automation
+* Establishing a vibrant pairing culture within the team
+
+#### Tech Stack
+##### Backend
+Java EE, Weld, Spring
+##### Frontend
+-
+##### Infrastructure
+Azure, AWS, Docker, Kubernetes, Kinesis, Kafka, VerneMQ, Terraform, Gitlab
+##### Collaboration Tools
+Scrum, Jira, Confluence, Gathertown
+
+
+### 07/2022 - 12/2022 // Identity Management
+#### Industry
+Heating and Climate Technology
+#### Challenge
+Migration of a variety of identity providers to a central, enterprise-wide identity provider enabling SSO across all company products.
+#### Role
+Fullstack Software Developer
+#### Responsibilities
+* Customization of the Keycloak server
+* Establishing a foundation for meaningful integration tests for the Keycloak server
+* Training international departments in the integration of the central identity management system
+* Keycloak migration from JBoss to Quarkus
+
+#### Tech Stack
+##### Backend
+Keycloak, Java EE
+##### Frontend
+Javascript
+##### Infrastructure
+Azure, Docker, Salesforce
+##### Collaboration Tools
+Scrum, Jira, Confluence
+
+
 ### 01/2022 - 06/2022 // Wallbox Online Retail
 #### Industry
 E-Commerce
